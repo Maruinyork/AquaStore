@@ -1,0 +1,66 @@
+footer {
+  margin-top: 0px;
+  border-top: 1px solid rgb(34, 32, 32);
+}
+
+.install h5 {
+  margin-top: 1.6em;
+  font-size: 1.2em;
+}
+
+.textFooter {
+  color: rgb(245, 242, 242);
+  text-decoration: none;
+}
+
+.textFooter:hover {
+  color: blueviolet;
+}
+
+.container .row {
+  font-size: 0.8em;
+}
+
+#root
+  > div
+  > div:nth-child(4)
+  > footer
+  > div
+  > nav
+  > ul:nth-child(4)
+  > li.d-flex {
+  gap: 0.6em;
+}
+
+.install {
+  margin-top: 10px;
+}
+.install .pay {
+  width: 170px;
+}
+
+.install img{
+  margin-top: 0.8em;
+  border: 2px double  rgb(90, 12, 70);
+}
+
+@media (max-width: 480px) {
+  footer ul li {
+    font-size: 0.8em;
+  }
+  i {
+    font-size: 0.8em;
+  }
+
+  .column {
+    padding-left: 30px;
+  }
+  .install h5 {
+    font-size: 0.8em;
+    margin-top: 1.8em;
+  }
+  .install p {
+    font-size: 0.8em;
+    margin-bottom: -5px;
+  }
+}

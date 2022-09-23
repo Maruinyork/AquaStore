@@ -1,0 +1,133 @@
+.itemBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    border: 2px solid rgb(93, 4, 93);
+    padding: 0;
+    color: white;
+    background-color:rgb(15, 15, 15);
+    justify-content: center;
+    border-radius: 25px;
+    margin: 5px auto;
+    text-decoration: none;
+    box-shadow: 1px 2px 2px rgb(51, 57, 90), 0 0 1em rgb(115, 33, 51), 0 0 0.2em rgb(126, 26, 26);
+}
+.itemBox:hover{
+    color: white;
+}
+
+.itemBox h5{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 0;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: rgb(15, 15, 15);
+}
+
+.itemBox p{
+    width: 100%;
+    text-align: center;
+}
+
+.itemBox p:nth-child(3){
+    font-size: larger;
+    color: rgb(229, 227, 68);
+}
+.itemBox p:nth-child(5){
+    font-style: italic;
+    font-size: .9rem;
+}
+
+.itemBox button {
+    padding: 10px;
+    margin:auto;
+    font-size: 15px;
+    margin-bottom:.5em;
+    border: none;
+    color: rgba(255,255,255, .8);
+    border-radius: 20px;
+    background-color: purple;
+}
+
+.itemBox button:hover{
+    background-color: transparent;
+    border: 1px solid purple;
+    box-shadow: 1px 2px 2px rgb(45, 50, 79), 0 0 1em rgb(115, 33, 51), 0 0 0.2em rgb(126, 26, 26);
+}
+
+.itemBox img{
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    background: rgb(15, 15, 15);
+}
+
+.itemContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin:90px 15px 50px 15px;
+}
+
+.row h3{
+ font-size: 1.7em;
+ margin-bottom: 4vh;
+ color: white;
+ text-shadow: 1px 2px 2px rgb(1, 4, 17), 0 0 1em rgb(115, 33, 51), 0 0 0.2em rgb(183, 28, 28);
+}
+
+@media (max-width:480px){
+
+    .itemContainer{
+        margin:0px 4px 40px 4px;
+    }
+    .itemBox{
+        width:90%;
+    }
+
+    .itemBox img{
+        width:60%;
+    }
+    .row h3{
+        font-size: 1.5em;
+        text-align: center;
+        margin: -10vh 0vh 3vh 0vh;
+        color: white;
+        text-shadow: 1px 2px 2px rgb(1, 4, 17), 0 0 1em rgb(115, 33, 51), 0 0 0.2em rgb(183, 28, 28);
+    }
+}
+
+@media (min-width:1024px){
+    .itemContainer{
+        margin-top: 6%;
+    }
+
+    .itemBox{
+        width: 15%;
+    }
+
+    .itemBox img{
+        width: 83%;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 3px;
+        background: rgb(15, 15, 15);
+    }
+    .itemBox img:hover{
+        transform: scale(1.1);
+    }
+
+}
+
+@media (min-width:1200px){
+    .itemContainer{
+        margin-top: 10%;
+    }
+    .row h3{
+        margin: 4vh 0vh 3vh 0vh;
+    }
+}
+

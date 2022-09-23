@@ -1,0 +1,122 @@
+.contain{
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(32, 32, 104), 0 0 0.2em rgb(30, 30, 58);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.body{
+    background: url(https://images.squarespace-cdn.com/content/v1/56943972df40f384188df846/1566855738639-4VFCFKD6UOBCB1D6E5CS/Screen+Shot+2019-08-26+at+2.39.08+PM.png?format=2500w);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.itemContainer .spinner{
+    margin-top: 150px;
+}
+.item-list{
+    text-align: center;
+    font-family: 'Poppins';
+    text-shadow: 1px 2px 2px rgb(22, 36, 113), 0 0 1em rgb(12, 12, 26), 0 0 0.2em rgb(35, 35, 125);
+    color:rgb(254, 255, 255);
+    font-weight: bold;
+    margin: 0;
+    background-color: rgb(83, 11, 79);
+    box-shadow: 1px 2px 2px rgb(45, 50, 79), 0 0 1em rgb(115, 33, 51), 0 0 0.2em rgb(126, 26, 26);
+}
+
+.item-list h1{
+    font-size: 1.3em;
+}
+
+.text{
+    position: absolute;
+}
+
+.text h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.newarrival{
+    position: relative;
+    top: -30px;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    margin: 0px;
+    text-shadow: 1px 2px 2px rgb(45, 50, 79), 0 0 1em rgb(115, 33, 51), 0 0 0.2em rgb(183, 28, 28);
+}
+
+.onlineorder{
+    position: absolute;
+    top:30px;
+    text-align: center;
+    margin-left: 3vh;
+    box-shadow: 1px 2px 2px rgb(45, 50, 79), 0 0 1em rgb(115, 33, 51), 0 0 0.2em rgb(126, 26, 26);
+}
+
+
+.onlineorder h2{
+    width: 250px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(206, 201, 201);
+}
+
+@media (max-width:480px){
+    .onlineorder{
+        top:25vh;
+        margin-left: 10vw;
+        text-shadow: 1px 2px 2px rgb(8, 10, 17), 0 0 1em rgb(40, 74, 97), 0 0 0.2em rgb(57, 32, 121);
+    }
+
+    .item-list h1{
+        font-size: .8em;
+        padding-top:5px;
+    }
+
+    .newarrival{
+        position: relative;
+        top: -60px;
+        padding-left: 20px;
+        font-size: 40px;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+        margin:0;
+        text-shadow: 1px 2px 2px rgb(45, 50, 79), 0 0 1em rgb(115, 33, 51), 0 0 0.2em rgb(183, 28, 28);
+    }
+
+}
+
+@media(max-width:768px){
+    
+    .onlineorder{
+        border: 1px solid rgb(17, 15, 60);
+    }
+
+    .body{
+        background: url('../../assets/surf.jpg');
+        background-size:contain;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+    }
+    .item-list{
+        display: none;
+    }
+}
+
+
+
+

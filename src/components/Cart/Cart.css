@@ -1,0 +1,47 @@
+.kart {
+  color: white;
+  margin: 50px;
+}
+
+.kart .total {
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  font-size: 15px;
+  margin-bottom: 0.5em;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: larger;
+}
+
+.cartStyles{
+    text-align: center;
+    min-height: 50vh;
+}
+.cartStyles h5{
+    color: white;
+    margin:50px auto;
+}
+
+.cartButton {
+  padding: 10px 15px;
+  margin: auto;
+  font-size: 15px;
+  margin-bottom: 0.5em;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  background-color: purple;
+}
+
+.cartStyles a{
+    text-decoration: none;
+}
+
+.cartStyles a:hover{
+    color:aliceblue;
+    background-color: transparent;
+    border: 1px solid purple;
+    box-shadow: 1px 2px 2px rgb(45, 50, 79), 0 0 1em rgb(115, 33, 51),
+      0 0 0.2em rgb(126, 26, 26);
+}

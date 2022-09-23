@@ -1,0 +1,78 @@
+.containerButton {
+  text-align: center;
+}
+
+.addToCart {
+  width: 100%;
+  background-color: rgb(104, 17, 100);
+  border: none;
+  padding: 0.8em;
+  border-radius: 1em;
+  color: white;
+  display: block;
+  margin-bottom: 100px;
+  font-size: 1.2em;
+}
+
+.addToCart:active {
+  border: 2px solid rgb(184, 30, 136);
+  background-color: transparent;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(184, 30, 136);
+  background-color: transparent;
+  color: white;
+  box-shadow: 1px 2px 2px rgb(45, 50, 79), 0 0 1em rgb(115, 33, 51),
+    0 0 0.2em rgb(126, 26, 26);
+}
+
+.counter {
+  width: 100%;
+  color: white;
+  font-size: 0.7em;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(32, 32, 104),
+    0 0 0.2em rgb(30, 30, 58);
+  display: flex;
+  margin-top: -10px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+label {
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.toCart {
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 0.5em;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  background-color: purple;
+  cursor: pointer;
+  padding: 10px 85px;
+  margin-top: 90px;
+  text-decoration: none;
+}
+
+.toCart:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid purple;
+  box-shadow: 1px 2px 2px rgb(45, 50, 79), 0 0 1em rgb(115, 33, 51),
+    0 0 0.2em rgb(126, 26, 26);
+}
+
+
+@media (max-width: 768px) {
+  .add {
+    width: 30%;
+  }
+}
