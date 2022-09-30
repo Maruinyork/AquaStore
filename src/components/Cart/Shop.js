@@ -104,7 +104,7 @@ const successMessage = () => {
       style={{
         display: submitted ? '' : 'none',
       }}>
-      <h4 className="bg-transparent text-success scale-in-ver-center">Pago exitoso</h4>
+      <h4 className="bg-transparent text-purple scale-in-ver-center">Pago exitoso</h4>
     </div>
   );
 };
@@ -148,19 +148,20 @@ const errorMessage = () => {
             <span className="text-primary text-light">Su carrito</span>
             <span className="badge bg-purple rounded-pill">{totalItems()}</span>
           </h4>
-          <ul className="list-group mb-3 bg-purple">
+          <ul className="list-group mb-3 bg-transparent">
           {cart.map(item => (
-            <Container key={item.id} className="list-group-item justify-content-between lh-sm"><li className="list-group-item d-flex justify-content-between lh-sm">
+            <Container key={item.id} className="list-group-item justify-content-between lh-sm bg-transparent"><li className="list-group-item d-flex justify-content-between lh-sm bg-transparent text-light">
               <div>
-			    <img src={item.image} alt={item.name} className='img-fluid' />
+			          <img src={item.image} alt={item.name} className='img-fluid' />
                 <h6 className="my-0">{item.name}{item.cant}</h6>
+                <span className="text-light fs-6">${item.price}</span>
               </div>
             </li>
             </Container>
           ))}
-          <li className="list-group-item d-flex justify-content-between lh-sm">
+          <li className="list-group-item d-flex justify-content-center lh-sm bg-transparent text-light">
               <div>
-                <h6 className="my-0">Total:$ {totalPrice()}</h6>
+                <h6 className="my-0 text-warning">Total:$ {totalPrice()}</h6>
               </div>
             </li>
           </ul>
