@@ -1,0 +1,21 @@
+.bg-purple{
+    background-color: purple;
+}
+
+.text-shadow{
+    text-shadow: 0.1px 0.1px 0.1px rgb(255, 250, 250), 0 0 .5em rgb(149, 38, 176),
+    0 0 0.1em rgb(204, 204, 210);
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
+.text-purple{
+    color: purple;
+}
+
+.text-purple:hover{
+    color: white;
+}
+

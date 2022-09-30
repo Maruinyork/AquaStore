@@ -44,9 +44,6 @@ const Header = () => {
             <NavLink to="/category/surf">Surf</NavLink>
           </li>
           <li>
-            <NavLink to="/login">Acceder</NavLink>
-          </li>
-          <li>
             <NavLink id="ver-carrito" className="cart" to="/cart"> <button className={'btn btn-outline'}><CartWidget /></button> </NavLink>
           </li> 
         </ul>

@@ -32,6 +32,12 @@
   color: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
   background-color: purple;
+  border: 2px solid purple;
+}
+
+.cartButton:hover{
+  background-color: transparent;
+  border: 2px solid purple;
 }
 
 .cartStyles a{
