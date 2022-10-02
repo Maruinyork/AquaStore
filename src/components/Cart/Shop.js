@@ -104,7 +104,7 @@ const successMessage = () => {
       style={{
         display: submitted ? '' : 'none',
       }}>
-      <h4 className="bg-transparent text-purple scale-in-ver-center">Pago exitoso</h4>
+      <h4 className="bg-transparent text-purple scale-in-ver-center">Orden generada con éxito</h4>
     </div>
   );
 };
