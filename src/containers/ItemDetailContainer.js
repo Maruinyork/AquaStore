@@ -22,7 +22,7 @@ const ItemDetailContainer = () => {
     const queryDoc = doc(querydb, 'items', itemId);
     getDoc(queryDoc)
       .then(res =>setProduct({id:res.id, ...res.data()})) //data es el nombre bajo el cual esta guardada en firestore
-  },[])
+  },[itemId])
 
   return (
     <div>
