@@ -27,6 +27,8 @@ const ItemListContainer = ({ greeting }) => {
       getDocs(queryCollection)
         .then(res => setProduct(res.docs.map(item =>({id: item.id, ...item.data() }))))
     }
+    return setLoading(false)
+    
   }, [categoryId]) //cada vez que cambia la categoria debe montarse el useEffect
 
 
